@@ -14,10 +14,6 @@ def new_game():
         correct_guess += check_answer(questions.get(key), quess)
         question_number += 1
         display_score(correct_guess, quesses)
-
-
-
-
 #--------------------------------
 def check_answer(answer, quesses):
     if answer == quesses:
@@ -50,15 +46,6 @@ def play_again():
         return True
     else:
         return False
-
-
-
-
-
-
-
-
-
 questions = {
     "Who created Python?: ": "A",
     "What year was Python created?: ": "B",
